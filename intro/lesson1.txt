@@ -1,0 +1,60 @@
+The html structure:
+-------------------
+
+every html file starts with 
+<!DOCTYPE html>
+then followed by 
+
+<html>
+
+inside this we have // this is called as nesting 
+ <head>
+    <title> //used to change the site title 
+    </title>
+    < 
+ </head>
+ <body>
+ </body> //contains that all visible on the website 
+
+</html>
+
+
+Display property in CSS:
+----------------------
+there are about 3 types of elements in the dispkay property
+1. Block element: a paragarph is a dfault a Block
+2.inline-block element: takes space what it needs
+3. inline element: appear in line of text
+
+.video-stats{
+            display: inline-block;
+        }
+  display: block;
+
+
+The Div Element:
+-------------------
+the division is just a box, where a specific code is assigned .
+it is so usable, can contain any other elements in thatas well as other division
+we can use a container to group all.
+check at images.html file in intro
+
+
+Nested Layout Techniques :
+----------------------------
+
+Vertical layout ___, horizontal layout|||
+
+
+CSS-GRID :
+----------
+much better way to use layout.
+display: inline-block, is used but there is some problem when there is an allignment
+or using the background color.
+instead we can use this
+here basically we have : display: grid, grid-template-colums: 100px .. no fo columns , 1fr indicates that the rest of the remainig space
+next , column-gap : 20px, row-gap:20px. we can get the space between.
+
+
+Flex-Box:
+-----------

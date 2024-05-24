@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Buttons </title>
+        <style>
+            .subscribe-button { 
+                background-color: rgb(200, 0, 0);
+                color: white;
+                border: none;
+                height: 36px;  
+                width: 105px;
+                border-radius: 2px;
+                cursor: pointer;
+                margin-right: 8px;
+                transition: opacity 0.1s;
+            }
+            .join-button{
+                background-color: white;
+                color: rgb(0, 89, 255);
+                border-color: rgb(0, 89, 255);
+                border-radius: 2px;
+                border-style: solid;
+                border-width: 1px;
+                height: 36px;
+                width: 62px;
+                cursor: pointer;
+                
+            }
+            .subscribe-button:hover {
+                /* background-color: red ; */
+                opacity: 0.8;
+            }
+            .subscribe-button:active{
+                /* background-color: blue; */
+                opacity: 0.3;
+            }
+            .join-button:hover{
+                background-color: blue;
+                color:white;
+                transition: background-color 1s,color 1s;
+            }
+            .join-button:active{
+                opacity: 0.7;
+            }
+            .tweet{
+                background-color: rgb(0, 162, 255);
+                color: white;
+                border-radius: 18px;
+                border :none;
+                height: 36px;
+                width: 80px;
+                font-weight: bold;
+                font-size: 15px;
+                margin-left: 8px;
+                cursor: pointer;
+        
+            }
+            .tweet:hover{
+                box-shadow: 5px 5px 10px rgba(0, 0,0, 0.15);
+                transition: box-shadow 0.15s;
+            }
+        </style>
+            
+        
+
+    </head>
+    <body>
+        <button class="subscribe-button">SUBSCRIBE</button>
+<button class="join-button">JOIN</button>
+<button class="tweet">Tweet</button>
+
+</br>
+</br>
+
+1...</br>
+-> px -pixels</br>
+->rounded corners we use : border-radius</br>
+ ->cursor : we get a hand like option.</br>
+->if we start with '.' indicates we are using a class name reference </br>
+->to get solid border : border-style</br>
+-> to add space we use margin :margin-left,margin-right </br>
+-> font-weight is the option to get the font bold.</br>
+-> font size is used to update the font</br>
+
+2...</br>
+Hovers, shadows!</br>
+-> create a seperate element like, .subscribe-button:hover {  
+}</br>
+active is the keyword used, when after click the changes in the button 
+.sub-button: active {}</br>
+-> opacity is used to fade out the color : opacity: {values are between 0-1}</br>
+-> for smooth transition we use transition and mention where we need in main element or in the hover or active </br>
+-> shadows :box-shadow is used </br>
+
+
+    </body>
+
+
+</html>
+
