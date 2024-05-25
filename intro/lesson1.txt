@@ -58,3 +58,11 @@ next , column-gap : 20px, row-gap:20px. we can get the space between.
 
 Flex-Box:
 -----------
+As same as the Grid, flex-box is also helpful to create the layouts
+but more flexibley 
+display: flex,
+flex-direction: row;
+justify-content : start; or end or center or space-between   to align 
+
+similarly for verrically :
+align-items : stretch or start or end or center
